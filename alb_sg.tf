@@ -1,6 +1,6 @@
-###################################
-## SG Application Load Balancer ###
-###################################
+##################################
+## SG Application Load Balancer ##
+##################################
 resource "aws_security_group" "alb-security-group" {
   name        = "ALB Security Group"
   description = "Enable http/https access on port 80/443"
