@@ -1,6 +1,6 @@
 ############################
-##   Web app load balancer ##
-#############################
+##   Web app load balancer #
+############################
 resource "aws_lb" "application-load-balancer" {
   name                       = "web-external-load-balancer"
   internal                   = false
