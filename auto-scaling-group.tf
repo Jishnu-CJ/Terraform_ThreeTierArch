@@ -1,6 +1,6 @@
-##################################
-#### ASG for Presentation Tier ###
-##################################
+#################################
+#### ASG for Presentation Tier ##
+#################################
 
 resource "aws_launch_template" "auto-scaling-group" {
   name_prefix   = "auto-scaling-group"
