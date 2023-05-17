@@ -1,6 +1,6 @@
-###################################
-## SG Presentation Tier         ###
-###################################
+##################################
+## SG Presentation Tier         ##
+##################################
 resource "aws_security_group" "webserver-security-group" {
   name        = "Web server Security Group"
   description = "Enable http/https access on port 80/443 via ALB and ssh via ssh sg"
