@@ -9,7 +9,7 @@ Its a sample highly available 3-Tier Architecture application created using terr
 * Basic knowledge of AWS services and Terraform.
 * Terraform and AWS cli
 
-This Terraform script will create the following resources(Dont forget to distroy the resources once we verified everything)
+This Terraform script will create the following resources(Dont forget to destroy the resources once we verified everything)
 
 1. VPC
 2. Internet Gateway
