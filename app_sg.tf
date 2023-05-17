@@ -1,5 +1,5 @@
 ##################################
-## SG Application Tier (Bastion Host) ###
+## SG Application Tier (Bastion Host) ##
 ###################################
 
 resource "aws_security_group" "ssh-security-group" {
