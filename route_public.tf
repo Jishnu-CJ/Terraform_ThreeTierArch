@@ -1,6 +1,6 @@
-##########################
+######################
 ###    Route Table  ##
-##########################
+######################
 
 resource "aws_route_table" "public-route-table" {
   vpc_id = aws_vpc.vpc_01.id
