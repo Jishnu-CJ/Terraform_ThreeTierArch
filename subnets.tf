@@ -1,5 +1,5 @@
-######################
-## Public Subnet- 1 ##
+#####################
+## Public Subnet- 1 #
 #####################
 
 resource "aws_subnet" "public-web-subnet-1" {
