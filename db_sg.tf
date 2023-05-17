@@ -1,6 +1,6 @@
-###################################
+################################
 ## SG  Database Tier         ###
-###################################
+################################
 
 resource "aws_security_group" "database-security-group" {
   name        = "Database server Security Group"
